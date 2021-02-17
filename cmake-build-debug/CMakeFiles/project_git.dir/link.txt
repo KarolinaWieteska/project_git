@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\project_git.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\project_git.dir/objects.a @CMakeFiles\project_git.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\project_git.dir/objects.a -Wl,--no-whole-archive  -o project_git.exe -Wl,--out-implib,libproject_git.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\project_git.dir\linklibs.rsp
